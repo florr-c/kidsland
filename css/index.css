@@ -1,0 +1,189 @@
+.ColorBar {
+    background-color: #eb7284;
+    border-bottom: none !important;
+}
+
+.Colortexto {
+    color: #f56270;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-sombra {
+    color: rgb(255, 246, 246);
+    text-shadow: rgba(0, 0, 0, 0.473) 2px 0px 9px;
+}
+
+
+.pc {
+    text-shadow: rgba(0, 0, 0, 0.651) 2px 1px 5px;
+
+}
+
+.btn-primary {
+    --bs-btn-bg: #f56270;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg: #e35664;
+    --bs-btn-active-border-color: none;
+}
+
+
+.ajuste1 {
+    padding-top: 33px;
+}
+
+.ajuste2 {
+    padding-top: 57px;
+    padding-bottom: 34px;
+}
+
+.mb-1 {
+    margin-right: 9px;
+}
+
+.link-secondary {
+    color: #fac0c0b0 !important;
+}
+
+body {
+    background-color: #f38394;
+}
+
+.py-0 {
+    padding-top: 20px !important;
+    padding-bottom: 52px !important;
+}
+
+
+h5 {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+h3 {
+    color: #f56270;
+    font-size: 23px;
+}
+
+.text-body-secondary {
+    color: #f56270 !important;
+
+}
+
+nav {
+    border: none;
+}
+
+.c1 {
+    margin-right: 9px;
+
+}
+
+.margen {
+
+    margin-top: 20px;
+    border: none;
+}
+
+.container {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.container1 {
+    margin-top: -59px;
+    padding-top: 20px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.card {
+    border: none;
+    color: black;
+    background-color: #fd90a0ad;
+    margin: 6px;
+    padding-top: 20px;
+    transition: all 300ms;
+
+}
+
+.linea {
+    padding-bottom: 47px;
+    color: transparent;
+    border-top: 3px solid;
+    border-radius: 1px;
+}
+
+.containerColor {
+    background-color: rgb(255 207 214);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-radius: 6px;
+}
+
+@media(hover:hover) {
+    .card:hover {
+        transform: scale(1.05);
+    }
+}
+
+.footerMar {
+    max-width: 100%;
+    max-width: 100%;
+    background-color: #eb7284;
+    color: rgba(255, 255, 255, 0.664);
+
+}
+
+.Barra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+main {
+    background-color: rgb(255 207 214);
+}
+
+.AjusteOso {
+    padding-bottom: 0px !important;
+    padding-top: 20px !important;
+
+}
+
+
+.body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:focus {
+    outline: none;
+}
+
+.OsitoIcono {
+
+    width: 50px;
+
+    padding-right: 20px;
+
+}

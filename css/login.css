@@ -1,0 +1,84 @@
+
+body {
+  background: #303030;
+
+}
+
+.formulario1 {
+  margin-bottom: 107px;
+
+}
+
+.text-body {
+  color: #707070 !important;
+}
+
+.form-control {
+  margin-bottom: 5px;
+}
+
+span {
+  padding-top: 15px;
+  padding-top: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.formulario {
+  margin: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 400px;
+  height: 508px;
+  padding: 9px 50px;
+  background: rgba(255, 158, 173, 0.377);
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-radius: 15px;
+
+}
+
+.botones {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 23px;
+}
+
+.avatars {
+  width: 180px;
+  border-radius: 50%;
+  padding: 20px;
+  background: #5264ae36;
+  margin: 20px;
+}
+
+.profile {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 0px;
+
+}
+
+#username {
+  text-transform: capitalize;
+  opacity: 100%;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form-control {
+  margin-top: 22px;
+  width: 300px;
+}
+

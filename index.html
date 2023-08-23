@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="utf-8">
+    <title>KidsLand Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md sticky-top border-bottom ColorBar" data-bs-theme="dark">
+        <div class="offcanvas-body">
+            <ul class="navbar-nav flex-grow-1 justify-content-between Barra">
+                <li class="nav-item"><a class="nav-link" href="./index.html">
+                        <img width="75px" src="./assets/img/logonuevo.png" alt="">
+                    </a></li>
+                <li class="nav-item"><a class="nav-link" href="./index.html"> <svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" class="mb-1" height="16" fill="currentColor" class="bi bi-house-fill"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z" />
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z" />
+                        </svg> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./pages/historia.html"> <svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="c1 mb-1"
+                            fill="currentColor" class="bi bi-emoji-smile-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z" />
+                        </svg> Nuestra Historia</a></li>
+                <li class="nav-item"><a class="nav-link" href="./pages/productos.html"> <svg
+                            xmlns="http://www.w3.org/2000/svg" class="mb-1" width="16" height="16" fill="currentColor"
+                            class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5ZM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1Zm0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                        </svg>Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="./pages/contacto.html"> <svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="c1" fill="currentColor"
+                            class="bi bi-chat-square-heart-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm6 3.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                        </svg> Contacto</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="./pages/login.html"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-person-heart mb-1" fill="currentColor" viewBox="0 0 16 16">
+                            <path
+                                d="M9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4Zm13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276Z" />
+                            <use xlink:href="#bi-person-heart"></use>
+                        </svg>
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="px-4 py-0 text-center ColorBanner">
+            <img src="./assets/img/banner.png" class="img-fluid" alt="img banner">
+            <h1 class="display-5 fw-bold Colortexto">Bienvenidos al store de KidsLand</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4"> Bienvenidos al Store de KidsLand, aquí podrás encontrar los productos que
+                    necesitas para todos las edades de los pequeños. Siempre acompañamos al crecimiento
+                    de los niños!</p>
+
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="./pages/productos.html" class="btn btn-primary btn-lg">Ver Productos</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Osos -->
+
+        <div class="container marketing px-2 py-0 my-5 AjusteOso ">
+            <h3 class="featurette-heading fw-normal lh-1 text-body-secondary"> <img class="OsitoIcono"
+                    src="./assets/img/bear.png" alt="icono osos">Buscá por edades: </h3>
+            <p class="lead mb-4 text-body-emphasis"> Conocé los productos recomendados que pueden usar los niños según
+                las diferentes edades</p>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2 text-center">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <rect><img width="150px" src="./assets/img/oso1.png" alt="oso"></rect>
+                        <div class="card-body">
+                            <h3 class="card-text">0-18 Meses</h3>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="./pages/productos.html#0-18" class="btn btn-primary btn-sm">+Info</a>
+                                <small class="text-body-secondary">#Bebés</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <rect><img width="150px" src="./assets/img/oso2.png" alt="oso"></rect>
+                        <div class="card-body">
+                            <h3 class="card-text">18-36 Meses</h3>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="./pages/productos.html#18-36" class="btn btn-primary btn-sm">+Info</a>
+                                <small class="text-body-secondary">#Primeros-Pasos</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <rect><img width="150px" src="./assets/img/oso3.png" alt="oso"></rect>
+                        <div class="card-body">
+                            <h3 class="card-text">3-5 Años</h3>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="./pages/productos.html#3-5" class="btn btn-primary btn-sm">+Info</a>
+                                <small class="text-body-secondary">#Niños</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <rect><img width="150px" src="./assets/img/oso4.png" alt="oso"></rect>
+                        <div class="card-body">
+                            <h3 class="card-text">5-7 Años</h3>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="./pages/productos.html#5-7" class="btn btn-primary btn-sm">+Info</a>
+                                <small class="text-body-secondary">#Nuevas-Aventuras</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <rect><img width="150px" src="./assets/img/oso5.png" alt="oso"></rect>
+                        <div class="card-body">
+                            <h3 class="card-text">7-9 Años</h3>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="./pages/productos.html#7-9" class="btn btn-primary btn-sm">+Info</a>
+                                <small class="text-body-secondary">#Explorando-Desafios</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <rect><img width="150px" src="./assets/img/oso6.png" alt="oso"></rect>
+                        <div class="card-body">
+                            <h3 class="card-text"> + 9 Años</h3>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="./pages/productos.html#9" class="btn btn-primary btn-sm">+Info</a>
+                                <small class="text-body-secondary">#Creciendo-Juntos</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carrusel de fotos para banner con movimiento -->
+
+        <div class="container marketing">
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                        aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                        class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                        class=""></button>
+                </div>
+                <div class="carousel-inner rounded-2">
+                    <div class="carousel-item active">
+                        <img src="https://www.tenderleaftoys.com/cdn/shop/files/TL8816-pull-along-bear-cart-4_818ee7c2-3deb-41ef-b73a-688bca2e0301_1728x.jpg?v=1626402668"
+                            class="d-block w-100" alt="nene jugando">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="text-sombra">Descubrí nuestras mejores ofertas!</h1>
+                            <p class="pc">Nuevas ofertas para los pequeños mayores de 9 años.</p>
+                            <p><a class="btn btn-lg btn-primary" href="./pages/productos.html">Más Info</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.tenderleaftoys.com/cdn/shop/files/TL-Banner_Foxtail-Villa_1728x.jpg?v=1613770274"
+                            class="d-block w-100" alt="nena jugando">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="text-sombra">Nuevos diseños disponibles!</h1>
+                            <p class="pc">Nuevos ingresos para los pequeños menores de 6 años.</p>
+                            <p><a class="btn btn-lg btn-primary" href="./pages/productos.html">Más Info</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.tenderleaftoys.com/cdn/shop/files/TL-Banners_Wild-Pine-Train-Set_29f242b5-8667-43e0-88db-8759bb7bb268_1728x.jpg?v=1613786306"
+                            class="d-block w-100" alt="jugetes madera">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="text-sombra">Descubrí los juguetes sustentables!</h1>
+                            <p class="pc">Nueva colección de juguetes sustentables para los niños/niñas.</p>
+                            <p><a class="btn btn-lg btn-primary" href="./pages/productos.html">Más Info</a></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Fotos del final -->
+
+        <div class="containerColor">
+            <div class="container marketing">
+                <div class="row featurette ajuste1">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading fw-normal lh-1">Cuidando el futuro. <span
+                                class="text-body-secondary">Juguetes sustentables.</span></h2>
+                        <p class="lead text-body-emphasis word-wrap">Estamos profundamente comprometidos con la
+                            protección de
+                            los recursos naturales y solo trabajamos con madera de caucho recuperada, un
+                            subproducto de la industria del látex. Además, por cada árbol recuperado que utilizamos,
+                            plantamos uno nuevo, adelantando el ciclo de regeneración.</p>
+                        <p><a class="btn btn-lg btn-primary" href="./pages/productos.html">Más Info</a></p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="rounded-2" width="100%" src="./assets/img/img4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row featurette ajuste2">
+                    <hr class="linea">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading fw-normal lh-1">Acompañandote en cada paso. <span
+                                class="text-body-secondary">Explora la casa de muñecas.</span></h2>
+                        <p class="lead mb-4 text-body-emphasis word-wrap">Elegir una casa de muñecas puede parecer una
+                            tarea dificil por la gran cantidad de opciones disponibles. La clave es elegir una casa de
+                            muñecas que sea apropiada para la edad y la etapa de desarrollo de los niños. Los niños más
+                            pequeños pueden preferir una casa de muñecas simple y resistente con muebles y personajes
+                            grandes, mientras que los niños mayores pueden disfrutar de una casa de muñecas más
+                            detallada con características complejas.</p>
+                        <p><a class="btn btn-lg btn-primary" href="./pages/productos.html">Más Info</a></p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img class="rounded-2" width="100%" src="./assets/img/img2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="container py-5 footerMar">
+        <div class="row">
+            <div class="col-12 col-md">
+                <small class="d-block mb-3 ">© Kidsland 2012-2023</small>
+            </div>
+            <div class="col-7 col-md">
+                <h5>Preguntanos</h5>
+                <ul class="list-unstyled text-small ColorList">
+                    <li><a class="link-secondary text-decoration-none" href="#">FACQs</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Politica de envios</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Politica de privacidad</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Politica de devolución</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Términos y condiciones</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Contactanos</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Encontranos</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary text-decoration-none" href="#">Tienda Nube</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Mercadolibre</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Distribuidores</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Sucursales</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Sobre Nosotros</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary text-decoration-none" href="#">Equipo</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Tiendas</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Privacidad</a></li>
+                    <li><a class="link-secondary text-decoration-none" href="#">Términos</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Seguinos</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary text-decoration-none" href="https://es-la.facebook.com/">Facebook</a>
+                    </li>
+                    <li><a class="link-secondary text-decoration-none" href="https://www.youtube.com/">Youtube</a>
+                    </li>
+                    <li><a class="link-secondary text-decoration-none" href="https://www.instagram.com/">Instagram</a>
+                    </li>
+                    <li><a class="link-secondary text-decoration-none" href="https://twitter.com/">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
